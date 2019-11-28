@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+
+.reset-button {
+  text-align: center;
+  z-index: 2;
+}
+
+
+.container {
+  float: left;
+  margin: 0;
+  height: 100%;
+  display: grid;
+  width: 100%;
+}
+
