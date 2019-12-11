@@ -1,0 +1,55 @@
+/* General/Container styles */
+* {
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #d3d4d9;
+}
+
+.container {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Button styles */
+.buttons {
+  text-align: center;
+  color: #252627;
+}
+
+.buttons button {
+  border: none;
+  height: 50px;
+  width: 68px;
+}
+
+.numButton {
+  background-color: #4b88a2;
+}
+
+.functionButton {
+  background-color: #3e7085;
+}
+
+/* Input styles */
+.input {
+  width: 100%;
+  text-align: center;
+}
+
+#input {
+  height: 50px;
+  font-size: 2em;
+  text-align: right;
+  color: transparent;
+  text-shadow: 0 0 0 #111;
+  background-color: #fff9fb;
+}
+
